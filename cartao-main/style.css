@@ -1,0 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+  
+:root{
+    --cor-principal: #0000FF;
+    --cor-secundaria: #32CD32;
+    --cor-destaque:#FF0000;
+}
+
+body{
+    font-family:"Bungee Spice", sans-serif; 
+}  
+
+h1, h2, h5{
+    color: var(--color-secundaria);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--color-principal);
+}
+footer a:hover{
+    color: var(--color-destaque);
+}
+
+
